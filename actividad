@@ -46,3 +46,14 @@ def cotizar_proyecto():
   gracias=input ()
 cotizar_proyecto ()
 
+print("hola mundo!")
+
+máquina de funciones
+def f(x):
+  f_x=-x/3-10
+  return f_x
+
+y=f(10)
+
+print(y)
+
