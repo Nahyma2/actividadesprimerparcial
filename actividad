@@ -57,3 +57,26 @@ y=f(10)
 
 print(y)
 
+
+ 
+Fahrenheit a celsius 
+def celsius_a_fahrenheit (celsius):
+  fahrenheit=(celsius*9/5)+32
+  return fahrenheit
+
+def celsius_a_kelvin(celsius):
+  kelvin=celsius+273.15
+  return kelvin
+
+celsius_str=input("Temperatura en celsius:")
+celsius=int(celsius_str)
+
+fahrenheit=celsius_a_fahrenheit (celsius)
+kelvin=celsius_a_kelvin(celsius)
+
+result=f"{celsius}°C is equal to {fahrenheit:.2f}°F\n{celsius}°C is equal to {kelvin:.2f} K"
+
+print(result)
+
+
+
