@@ -1,0 +1,48 @@
+Repasos para el examen
+
+# Función 1
+def name():
+  print("¿me puedes decir la altura de tu rectángulo?")
+  altura=input()
+  print("dime el ancho de tu rectangulo?")
+  ancho=input()
+  area=int(altura)*int(ancho)
+  print("el rectángulo tiene un area de:",area)
+  #Function 2
+name()
+
+
+#Función 1
+def name():
+  print("¿Dime el precio de tu comida?")
+  comida=input()
+  print("¿descuento?")
+ descuento=input()
+  precio=100-int(descuento)
+  total=(int(comida)/100)*precio
+  print("el total será de:", total)
+
+#Función 2
+name()
+
+Examen
+"""cotizacion"""
+def cotizar_proyecto():
+  print("te gustaria hacer un presupuesto?")
+  si=input()
+  print( "comenzaremos con los materiales, dime   algunos")
+  conectores=input( )
+  cajas=input()
+  aluminio=input()
+  print("perfecto, necesitas 4,2 y 1, verdad")
+  si=input()
+  print( "en total seria 440")
+  gracias=input ()
+  print("te gustaria saber el descuento que hay del 5%")
+  claro=input ()
+  print("el 5% de 440 es 22 pesos")
+  print("440-22 te da 418 pesos")
+  print("tu costo final es de 418 ya con 5% de descuento")
+  gracias=input ()
+cotizar_proyecto ()
+
